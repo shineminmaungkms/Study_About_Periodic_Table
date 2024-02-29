@@ -1,0 +1,435 @@
+body {
+    background: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* nav */
+  .navhehe {
+    /* border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; */
+    border-left: 10px solid #0606bf;
+    border-right: 10px solid #0606bf;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 80px;
+    background-color: #00008B;
+}
+
+.textli {
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 0 10px gray;
+    text-decoration: none;
+}
+
+.textnav {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.activeW{
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+
+.textnav:hover {
+    color: rgb(195, 195, 195);
+    background-color: blue;
+    border: none;
+    transform: translateY(-5px);
+    transition: all 0.3s;
+    box-shadow: 0px 8px 16px 0px rgba(74, 74, 74, 0.2);
+}
+  /* nav */
+  
+  a{
+    text-decoration: none;
+  }
+  
+  #headerText {
+    text-align: center;
+    padding: 25px;
+  }
+  
+  /* Table holder */
+  #fullTable {
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid blanchedalmond;
+    border-radius: 5px;
+    padding: 1%;
+  }
+  
+  /* Grid set up */
+  
+  .conta {
+    display: grid;
+    grid-template-columns: repeat(18, 5vw);
+    gap: .4vw;
+  }
+  
+  .item {
+    background-color: rgb(60, 60, 60);
+    border: 3px solid blanchedalmond;
+    border-radius: 8px;
+    width: 5vw;
+    height: 5vw;
+  }
+  
+  /*.upperSection {}*/
+  
+  .lowerSection {
+    padding-top: 2vh;
+  }
+  
+  /* element styling */
+  
+  .atNum {
+    font-size: .75vw;
+    text-align: right;
+    margin: 0.25vw;
+  }
+  
+  .symbol {
+    font-size: 1.75vw;
+    font-weight: bold;
+    text-align: center;
+    margin: 0vw auto;
+  }
+  .name {
+    font-size: .5vw;
+    font-weight: bold;
+    text-align: center;
+    margin: 0vw auto;
+  }
+  
+  .nonmetal {
+    color:#008000;
+    border-color: springgreen;
+    background-color: rgb(0,255,127);
+  }
+  
+  .noble {
+    color: red;
+    border-color: pink;
+    background-color: pink;
+  
+  }
+  
+  .alkaliMetal {
+    color: #000000;
+    border-color: gold;
+    background-color: rgb(255,215,0);
+  }
+  
+  .alkaliEarthMetal {
+    color: black;
+    border-color: yellow;
+    background-color: rgb(255,255,0);
+  }
+  
+  .na {
+    color: olivedrab;
+    border-color: gainsboro;
+    background-color: rgb(220,220,220);
+  }
+  
+  .postTransitionMetal {
+    color: black;
+    border-color: mediumturquoise;
+    background-color: rgb(72,209,204);
+  }
+  
+  .metalloid {
+    color: black;
+    border-color: aqua;
+    background-color: rgb(0,255,255);
+  }
+  
+  .transitionMetal {
+    color: black;
+    border-color: salmon;
+    background-color: rgb(	250,128,114);
+  }
+  
+  .lanthanide {
+    color: black;
+    border-color: burlywood;
+    background-color: rgb(222,184,135);
+  }
+  
+  .actinide {
+    color: black;
+    border-color: palevioletred;
+    background-color: rgb(	219,112,147);
+  }
+  
+  .hidden {
+    opacity: 0;
+  }
+  
+  
+  /* Hover states for groups */
+  .nonmetal:hover {
+    background-color: rgb(0,255,127);
+    transform: scale(1.1);
+    transform: rotate(5deg);
+  }
+  
+  .noble:hover {
+    background-color: pink;
+    transform: scale(1.1);
+    transform: rotate(5deg);
+  }
+  
+  .alkaliMetal:hover {
+    background-color: rgb(255,215,0);
+    transform: scale(1.1);
+    transform: rotate(5deg);
+  }
+  
+  .alkaliEarthMetal:hover {
+    background-color: rgb(255,255,0);
+    transform: scale(1.1);
+    transform: rotate(5deg);
+  }
+  
+  .na:hover {
+    background-color: rgb(220,220,220);
+    transform: scale(1.1);
+    transform: rotate(5deg);
+  }
+  
+  .postTransitionMetal:hover {
+    background-color: rgb(72,209,204);
+    transform: scale(1.1);
+    transform: rotate(5deg);
+  }
+  
+  .metalloid:hover {
+    background-color: rgb(0,255,255);
+    transform: scale(1.1);
+    transform: rotate(5deg);
+  }
+  
+  .transitionMetal:hover {
+    background-color: rgb(	250,128,114);
+    transform: scale(1.1);
+    transform: rotate(5deg);
+  }
+  
+  .lanthanide:hover {
+    background-color: rgb(222,184,135);
+    transform: scale(1.1);
+    transform: rotate(5deg);
+  }
+  
+  .actinide:hover {
+    background-color: rgb(219,112,147);
+    transform: scale(1.1);
+    transform: rotate(5deg);
+  }
+  /* PT End */
+  /* other */
+  .d_flex{
+    display: flex;
+  }
+  .tothemoon{
+    margin: 0 auto;
+  }
+  .element-metal{
+    border: 1px solid rgb(255,215,0);
+    background-color: rgb(255,215,0);
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+  }
+  .Alkaline_earth_metals{
+    border: 1px solid rgb(255,255,0);
+    background-color: rgb(255,255,0);
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+  }
+  .Transition_metals{
+    border: 1px solid rgb(	250,128,114);
+    background-color: rgb(	250,128,114);
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+  }
+  .Post-transition_metals{
+    border: 1px solid rgb(72,209,204);
+    background-color: rgb(72,209,204);
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+  }
+  .Metalloids{
+    border: 1px solid rgb(0,255,255);
+    background-color: rgb(0,255,255);
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+  }
+  .Reactive_non-metals{
+    border: 1px solid rgb(0,255,127);
+    background-color: rgb(0,255,127);
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+  }
+  .Noble_gases{
+    border: 1px solid pink;
+    background-color: pink;
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+  }
+  .Lanthanides{
+    border: 1px solid rgb(222,184,135);
+    background-color: rgb(222,184,135);
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+  }
+  .Actinides{
+    border: 1px solid rgb(219,112,147);
+    background-color: rgb(219,112,147);
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+  }
+  .Unknown_properties{
+    border: 1px solid rgb(220,220,220);
+    background-color: rgb(220,220,220);
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+  }
+  .mewing{
+    font-size: 15px;
+  }
+
+  .yes{
+    margin: 0 auto;
+  }
+  .fontL{
+    font-size: 28px;
+  }
+  .borderP{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px 1px gray;;
+  }
+  /* thequizzandending */
+  .iconsb{
+    font-size: 50px;
+    border: 3px solid #1E3050;
+  }
+  .typetext{
+    text-align: center;
+    color: #1E3050;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .dont{
+    margin: 0 261px;
+  }
+  .nochioce{
+    display: flex;
+  }
+  .inshock{
+    width: 25%; 
+    margin: 0 auto;
+  }
+
+  .button1{
+    background-color: #0606b1;
+    color: white;
+  }
+  .button1:hover{
+    background-color: aliceblue;
+    color: black;
+    transform: scale(1.1, 1.1);
+    transition: all 0.2s;
+  }
+
+  .iconsC{
+    text-decoration: none;
+    color: aliceblue;
+    border: 3px solid aliceblue;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 10px;
+  }
+  .iconsC:hover{
+    color: aliceblue;
+    border: none;
+    transform: scale(2.1, 2.1);
+    transition: all 0.3s;
+  }
+
+  .border_me{
+    border: 3px solid #3333ff;
+    padding: 15px;
+    border-radius: 15px;
+  }
+  .border_me1{
+    border: 3px solid aliceblue;
+    padding: 5px;
+    border-radius: 15px;
+  }
+
+  .typekind{
+    text-align: center;
+    color: aliceblue;
+  }
+  .typekind:hover{
+    color: aqua;
+    transition: all 0.8s;
+  }
+
+  .border12{
+    background-color: aliceblue;
+    color: white;
+    text-shadow: 2px 0 10px black;
+  }
+
+  .formcontrol {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c5c3c3;
+    border-radius: 5px;
+  }
+  .formcontrol:focus {
+    outline: none;
+    border-color: #ff7e73;
+  }
+  .yesumm{
+    margin-left: 73px
+  }
+
+  @media screen and (max-width: 768px){
+    .dont, .yesumm{
+      margin: 0;
+    }
+    .nochioce, .inshock{
+      display: block;
+    }
+    .typetext{
+      text-align: justify;
+    }
+    .inshock{
+      width: 100%;
+      margin: 0;
+    }
+    .nochioce div{
+      margin: 0 auto;
+    }
+    .d_flex{
+      display: block;
+    }
+    .mewing{
+      font-size: 10px;
+    }
+  }
